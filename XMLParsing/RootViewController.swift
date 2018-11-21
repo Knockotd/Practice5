@@ -95,10 +95,23 @@ class RootViewController: UITableViewController, XMLParserDelegate {
         let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
 
         cell.textLabel?.text = books[indexPath.row].title
+        let imageName = "next.png"
+        let image : UIImageView = UIImageView.init(image: UIImage.init(named: imageName))
+        cell.accessoryView = image
+        
 
         return cell
     }
-
+    //셀을 선택했을 때 호출되는 메소드
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath){
+        //하위 뷰 컨트롤러 만들기
+        let detailViewController =
+        self.storyboard?.instantiateViewController(withIdentifier: "DetailViewController") as! DetailViewController
+        //데이터 넘기기
+        detailViewController.book = books[indexPath.row]
+        //출력
+        self.navigationController?.pushViewController(detailViewController, animated: true)
+    }
 
     /*
     // Override to support conditional editing of the table view.
