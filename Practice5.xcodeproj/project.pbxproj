@@ -15,6 +15,12 @@
 		AA4CEEED21A5355700C17DB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA4CEEEB21A5355700C17DB6 /* Main.storyboard */; };
 		AA4CEEEF21A5355F00C17DB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA4CEEEE21A5355F00C17DB6 /* Assets.xcassets */; };
 		AA4CEEF221A5355F00C17DB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA4CEEF021A5355F00C17DB6 /* LaunchScreen.storyboard */; };
+		AA742D2321A641B7002E5876 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA742D2221A641B7002E5876 /* AppDelegate.swift */; };
+		AA742D2521A641B7002E5876 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA742D2421A641B7002E5876 /* ViewController.swift */; };
+		AA742D2821A641B7002E5876 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA742D2621A641B7002E5876 /* Main.storyboard */; };
+		AA742D2A21A641BB002E5876 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA742D2921A641BB002E5876 /* Assets.xcassets */; };
+		AA742D2D21A641BB002E5876 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA742D2B21A641BB002E5876 /* LaunchScreen.storyboard */; };
+		AA742D3321A64501002E5876 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA742D3221A64501002E5876 /* CollectionViewCell.swift */; };
 		AA8DE7E221A246BA0098C90B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8DE7E121A246BA0098C90B /* AppDelegate.swift */; };
 		AA8DE7E721A246BA0098C90B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA8DE7E521A246BA0098C90B /* Main.storyboard */; };
 		AA8DE7E921A246BE0098C90B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA8DE7E821A246BE0098C90B /* Assets.xcassets */; };
@@ -75,6 +81,14 @@
 		AA4CEEEE21A5355F00C17DB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA4CEEF121A5355F00C17DB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA4CEEF321A5356000C17DB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA742D2021A641B7002E5876 /* CollectionViewUse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionViewUse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA742D2221A641B7002E5876 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA742D2421A641B7002E5876 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AA742D2721A641B7002E5876 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA742D2921A641BB002E5876 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA742D2C21A641BB002E5876 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA742D2E21A641BB002E5876 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA742D3221A64501002E5876 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		AA8DE7DF21A246B90098C90B /* XMLParsing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMLParsing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA8DE7E121A246BA0098C90B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA8DE7E621A246BA0098C90B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -130,6 +144,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		AA4CEEE221A5355700C17DB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA742D1D21A641B7002E5876 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -213,6 +234,20 @@
 			path = AlbumPickerUse;
 			sourceTree = "<group>";
 		};
+		AA742D2121A641B7002E5876 /* CollectionViewUse */ = {
+			isa = PBXGroup;
+			children = (
+				AA742D2221A641B7002E5876 /* AppDelegate.swift */,
+				AA742D2421A641B7002E5876 /* ViewController.swift */,
+				AA742D2621A641B7002E5876 /* Main.storyboard */,
+				AA742D2921A641BB002E5876 /* Assets.xcassets */,
+				AA742D2B21A641BB002E5876 /* LaunchScreen.storyboard */,
+				AA742D2E21A641BB002E5876 /* Info.plist */,
+				AA742D3221A64501002E5876 /* CollectionViewCell.swift */,
+			);
+			path = CollectionViewUse;
+			sourceTree = "<group>";
+		};
 		AA8DE7E021A246B90098C90B /* XMLParsing */ = {
 			isa = PBXGroup;
 			children = (
@@ -250,6 +285,7 @@
 				AA8DE7FA21A287760098C90B /* JSONParsing */,
 				AAE2650A21A38ED6006BE9B3 /* Alamofire */,
 				AA4CEEE621A5355700C17DB6 /* AlbumPickerUse */,
+				AA742D2121A641B7002E5876 /* CollectionViewUse */,
 				AABC40A7219D10100011E4C6 /* Products */,
 				FED60D1B9BC8744A15E2E61F /* Pods */,
 				1523877081AB64E46C7174BB /* Frameworks */,
@@ -266,6 +302,7 @@
 				AA8DE7F921A287760098C90B /* JSONParsing.app */,
 				AAE2650921A38ED6006BE9B3 /* Alamofire.app */,
 				AA4CEEE521A5355700C17DB6 /* AlbumPickerUse.app */,
+				AA742D2021A641B7002E5876 /* CollectionViewUse.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -362,6 +399,23 @@
 			name = AlbumPickerUse;
 			productName = AlbumPickerUse;
 			productReference = AA4CEEE521A5355700C17DB6 /* AlbumPickerUse.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA742D1F21A641B7002E5876 /* CollectionViewUse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA742D3121A641BB002E5876 /* Build configuration list for PBXNativeTarget "CollectionViewUse" */;
+			buildPhases = (
+				AA742D1C21A641B7002E5876 /* Sources */,
+				AA742D1D21A641B7002E5876 /* Frameworks */,
+				AA742D1E21A641B7002E5876 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CollectionViewUse;
+			productName = CollectionViewUse;
+			productReference = AA742D2021A641B7002E5876 /* CollectionViewUse.app */;
 			productType = "com.apple.product-type.application";
 		};
 		AA8DE7DE21A246B90098C90B /* XMLParsing */ = {
@@ -486,6 +540,9 @@
 					AA4CEEE421A5355700C17DB6 = {
 						CreatedOnToolsVersion = 10.1;
 					};
+					AA742D1F21A641B7002E5876 = {
+						CreatedOnToolsVersion = 10.1;
+					};
 					AA8DE7DE21A246B90098C90B = {
 						CreatedOnToolsVersion = 10.1;
 					};
@@ -526,6 +583,7 @@
 				AA8DE7F821A287760098C90B /* JSONParsing */,
 				AAE2650821A38ED6006BE9B3 /* Alamofire */,
 				AA4CEEE421A5355700C17DB6 /* AlbumPickerUse */,
+				AA742D1F21A641B7002E5876 /* CollectionViewUse */,
 			);
 		};
 /* End PBXProject section */
@@ -538,6 +596,16 @@
 				AA4CEEF221A5355F00C17DB6 /* LaunchScreen.storyboard in Resources */,
 				AA4CEEEF21A5355F00C17DB6 /* Assets.xcassets in Resources */,
 				AA4CEEED21A5355700C17DB6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA742D1E21A641B7002E5876 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA742D2D21A641BB002E5876 /* LaunchScreen.storyboard in Resources */,
+				AA742D2A21A641BB002E5876 /* Assets.xcassets in Resources */,
+				AA742D2821A641B7002E5876 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -770,6 +838,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AA742D1C21A641B7002E5876 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA742D2521A641B7002E5876 /* ViewController.swift in Sources */,
+				AA742D2321A641B7002E5876 /* AppDelegate.swift in Sources */,
+				AA742D3321A64501002E5876 /* CollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AA8DE7DB21A246B90098C90B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -843,6 +921,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				AA4CEEF121A5355F00C17DB6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		AA742D2621A641B7002E5876 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA742D2721A641B7002E5876 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA742D2B21A641BB002E5876 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA742D2C21A641BB002E5876 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -974,6 +1068,40 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "naver.knock-otd999.AlbumPickerUse";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AA742D2F21A641BB002E5876 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CollectionViewUse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "naver.knock-otd999.CollectionViewUse";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA742D3021A641BB002E5876 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CollectionViewUse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "naver.knock-otd999.CollectionViewUse";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1320,6 +1448,15 @@
 			buildConfigurations = (
 				AA4CEEF421A5356000C17DB6 /* Debug */,
 				AA4CEEF521A5356000C17DB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA742D3121A641BB002E5876 /* Build configuration list for PBXNativeTarget "CollectionViewUse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA742D2F21A641BB002E5876 /* Debug */,
+				AA742D3021A641BB002E5876 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
